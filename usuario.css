@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+
+}
+
+h2,
+p {
+    color: rgb(0, 2, 8);
+}
+
+h2 span,
+p span {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    border: none;
+    background: blue;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all ease 400ms;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
