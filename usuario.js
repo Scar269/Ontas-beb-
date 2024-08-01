@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     document.getElementById('goToReset').addEventListener('click', function() {
-        window.location.href = "reset.html";
+        window.location.href = "return.html";
     });
 });
