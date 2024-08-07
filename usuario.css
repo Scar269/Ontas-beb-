@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: "Urbanist", sans-serif;
+   display: grid;
+   place-items: center;
+   height: 100vh;
+   background-color: rgb(238, 244, 245);
+   color: #fdfdfd;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    width: 38vw;
+    max-width: 650px;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: #221F1F;
+}
+.imagen-oso{
+    max-width: 250px;
+    width: 35vw;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -100px;
+    margin-right: 40px;
+    border-radius: inherit;
+    box-shadow: 0 60px 40px rgba(0, 0, 0, 0.5);
+    transition: all .5S;
+}
+.principal:hover img{
+    transform: scale(1.1);
+}
+.linea{
+    display: grid;
+}
+.principal h1{
+    font-size:28px ;
+    margin-bottom: 50px;
+}
+.principal h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #4d4f52;
+}
+.principal h4 {
+    font-size: 19px;
+    font-weight: 200;
+    opacity: 0.75;
+}
+ button {
+    padding: 10px 30px;
+    font-size: 16px;
+    color: rgb(7, 6, 6);
+    background-color: #d2d2d2;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 50px; 
+}
+button:hover {
+    background-color: #ffffff;
+}
+  
