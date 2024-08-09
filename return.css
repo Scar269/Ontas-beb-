@@ -53,3 +53,28 @@ button:hover {
     background-color: #313131;
     color: #d2d2d2;
 }
+@media (max-width: 768px) {
+  .container {
+    margin: 20px auto;
+    padding: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 10px auto;
+    padding: 5px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
