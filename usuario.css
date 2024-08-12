@@ -97,6 +97,7 @@ button:hover {
         width: 50vw;
         height: auto;
         max-height: 300px;
+        margin-bottom: 20px;
     }
 
     .linea {
@@ -106,6 +107,7 @@ button:hover {
     .principal h1 {
         font-size: 24px;
         margin-bottom: 30px;
+        margin-top: 20px;
     }
 
     .principal h2, .principal h4 {
@@ -126,6 +128,7 @@ button:hover {
     .imagen-oso {
         width: 70vw;
         max-width: 200px;
+        margin-bottom: 20px;
     }
 
     .principal h1 {
